@@ -1,0 +1,79 @@
+.sheet-box {
+  border: thin solid #bbb;
+  margin: 10px;
+  overflow: auto;
+  padding: 10px;
+  background-color: ghostwhite;
+}
+.charsheet {
+  overflow: auto;
+  width: 800px;
+  padding: 10px;
+  background-color: #eee;
+}
+.sheet-startcol {
+  clear: left;
+  float: left;
+  margin-right: 1em;
+}
+.sheet-col {
+  float: left;
+  margin-right: 1em;
+}
+.sheet-endcol {
+  clear: right;
+  float: left;
+}
+.sheet-onlycol {
+  clear: both;
+  float: left;
+}
+.sheet-inline {
+  display: inline-block;
+}
+.sheet-nomargin {
+  margin: 0px;
+}
+h1, h2, h3, h4 {
+  margin: 5px;
+  text-align: center;
+}
+hr {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input[type="text"], image {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 300px;
+  resize: none;
+  background-attachment: local;
+  background-image:
+  linear-gradient(to right, white 10px, transparent 10px),
+  linear-gradient(to left, white 10px, transparent 10px),
+  repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+}
+ input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+input.sheet-number {
+  text-align: center;
+}
+input.sheet-attrnum {
+  font-size: x-large;
+  text-align: center;
+  width: 50px;
+  margin-bottom: 10px;
+}
+span.sheet-nbsp {
+  font-size: 1px;
+  line-height: 1px;
+}
